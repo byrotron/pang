@@ -1,0 +1,16 @@
+{
+    "name": "byrotron/php_angular_skeleton",
+    "description": "PHP and Angular 2 starter script",
+    "type": "library",
+    "require": {
+        "symfony/console": "^3.3",
+        "symfony/process": "3.4.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pang\\": "src/Pang/"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
